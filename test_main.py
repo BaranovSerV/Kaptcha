@@ -1,4 +1,4 @@
-from image import ImageProccessor   
+from image_processor import ImageProccessor   
 
 
 if __name__ == "__main__":
