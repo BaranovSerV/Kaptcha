@@ -1,3 +1,3 @@
-from .image import ImageProccessor
+from .image_processor import ImageProcessor
 
-__all__ = ["ImageProccessor"]
+__all__ = ["ImageProcessor"]

@@ -4,12 +4,13 @@ from PIL import Image, ImageOps
 import numpy as np
 
 
-class ImageProccessor:
+class ImageProcessor:
     def __init__(self, directory: str):
         self.directory = directory
+        self.images = self._load_images()
 
 
-    def load_images(self):
+    def _load_images(self):
         images = []
 
         files = os.listdir(self.directory)
