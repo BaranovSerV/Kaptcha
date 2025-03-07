@@ -3,7 +3,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone 
+git clone https://github.com/BaranovSerV/Kaptcha.git 
 ```
 
 ### 2. Создание виртуального окружения
@@ -15,5 +15,5 @@ venv\Scripts\activate # Для Windows
 
 ### 3. Установка зависимостей
 ```bash
-pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
